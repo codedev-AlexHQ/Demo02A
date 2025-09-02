@@ -7,10 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="269*"/>
-            <ColumnDefinition Width="531*"/>
-        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Button Content="Button 1" Width="100" Height="30" Margin="5" x:Name="BtnNumber1" Click="BtnNumber1_Click"/>
+            <Button Content="Button 1" Width="100" Height="30" Margin="5"/>
+            <Button Content="Button 1" Width="100" Height="30" Margin="5"/>
+            <Button Content="Button 1" Width="100" Height="30" Margin="5"/>
+        </StackPanel>
 
     </Grid>
 </Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Demo02A.Mantenimientos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo02A"
+        mc:Ignorable="d"
+        Title="Mantenimientos" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Conductores" Width="100" Height="30" Margin="5" x:Name="BtnConductores" Click="BtnConductores_Click"/>
+            <Button Content="Transportistas" Width="100" Height="30" Margin="5" x:Name="BtnTransportistas" Click="BtnTransportistas_Click"/>
+            <Button Content="Camiones" Width="100" Height="30" Margin="5" x:Name="BtnCamiones" Click="BtnCamiones_Click"/>
+            <Button Content="Productos" Width="100" Height="30" Margin="5" x:Name="BtnProductos" Click="BtnProductos_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
